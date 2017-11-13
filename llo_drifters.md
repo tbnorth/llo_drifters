@@ -35,12 +35,12 @@
 
 
 <!-- .slide: data-state="hide-head" -->
-<!-- .slide: data-background="img/Capture.PNG" data-background-size="auto" -->
+<!-- .slide: data-background="img/Capture1.PNG" data-background-size="auto" -->
 
 
 
 <!-- .slide: data-state="hide-head" -->
-<!-- .slide: data-background="img/Capture1.PNG" data-background-size="auto" -->
+<!-- .slide: data-background="img/Capture.PNG" data-background-size="auto" -->
 
 
 
@@ -65,8 +65,25 @@
 
 
 
+## XBee Digimesh radios
+
+- “Transparent” and API mode.  Transparent = imaginary RS232 cable
+- More packet / routing control in API mode
+- Sending JSON payloads, good for adding information en route.
+- With six drifters, bandwidth not limiting.  RTS/CTS may be helping.
+
+
+
 <!-- .slide: data-state="hide-head" -->
 <!-- .slide: data-background="img/746-08.jpg" data-background-size="auto" -->
+
+
+
+## Hardware
+
+## Field software
+
+## Post-field software
 
 
 
@@ -81,6 +98,19 @@
 
 
 
+# Smart network
+
+- each drifter notes the last msg. from other drifters
+- periodically or on demand, re-sends to base
+
+# Battery life
+
+- always on, 10+ hours
+- sleep mode - days - weeks?
+- sleeping makes comms. harder
+
+
+
 # Local applications
 
 - testing the FVCOM estuary model :-)
@@ -88,7 +118,10 @@
 - conductivity - trib. inputs (road salt)
 - Apostles / Chequamegon Bay
 
+
+
 # Future
 
-- Stream "tumbler"?
+- Stream “tumbler”?
 - Outreach - students follow drifter around estuary in kayaks?
+
